@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Point.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Point.h" />
     <ClInclude Include="Rectangle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="destcomp.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

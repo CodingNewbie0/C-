@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 class Myclass {
 private:		// 외부의 접근을 불허함
