@@ -21,9 +21,13 @@
   <ItemGroup>
     <ClInclude Include="Point.h" />
     <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="destcomp.cpp" />
+    <ResourceCompile Include="baseC.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ReturnObjDeadTime.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
