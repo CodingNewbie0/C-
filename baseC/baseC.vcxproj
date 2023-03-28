@@ -27,7 +27,7 @@
     <ResourceCompile Include="baseC.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ReturnObjDeadTime.cpp" />
+    <ClCompile Include="ISAInheritance.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
