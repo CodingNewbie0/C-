@@ -27,3 +27,14 @@
 - 복사생성자
   - 깊은복사 & 얕은복사
   - 복사 생성자의 호출
+## 6일차
+- const 함수
+- friend 선언
+- static 활용
+- 상속(Inheritance)의 이해
+## 7일차
+- 상속의 뭄법
+- protected 선언
+  - 상속의 세가지 조건
+- 객체 포인터
+- 가상함수(Virtuual Function)
