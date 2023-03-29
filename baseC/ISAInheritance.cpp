@@ -27,7 +27,7 @@ public:
 		: Computer(name), Battery(initChag) {}
 	void Charging() { Battery += 5; }
 	void UseBattery() { Battery -= 1; }
-	void MovintCal()
+	void MovingCal()
 	{
 		if (GetBatteryInfo() < 1)
 		{
@@ -60,7 +60,7 @@ public:
 		}
 		if (strcmp(regstPenModel, penInfo)!=0)
 		{
-			cout << "동록된 펜이 아닙니다.";
+			cout << "등록된 펜이 아닙니다.";
 			return;
 		}
 		cout << "필기 내용을 처리합니다. " << endl ;
@@ -72,7 +72,7 @@ int main(void)
 {
 	NotebookComp nc("이수종", 5);
 	TabletNotebook tn("정수영", 5, "ISE-241-242");
-	//nc.MovingCal();
+	nc.MovingCal();
 	tn.Write("ISE-241-242");
 	return 0;
 }

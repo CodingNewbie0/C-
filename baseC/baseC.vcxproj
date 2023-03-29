@@ -27,7 +27,7 @@
     <ResourceCompile Include="baseC.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ISAInheritance.cpp" />
+    <ClCompile Include="Virtual Destructor.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
