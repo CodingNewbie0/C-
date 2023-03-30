@@ -31,7 +31,7 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Virtual Destructor.cpp">
+    <ClCompile Include="classmaker02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

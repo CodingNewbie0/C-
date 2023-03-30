@@ -27,7 +27,7 @@
     <ResourceCompile Include="baseC.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Virtual Destructor.cpp" />
+    <ClCompile Include="classmaker02.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
