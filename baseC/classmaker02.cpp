@@ -1,49 +1,35 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
-#include <cstring>
 using namespace std;
 
 class Person {
 private:
-	char* name;
-	int birthday;
+    char name[30];
+    int birthday;
 public:
-	Person(const char* aname, int abir)
-	{
-		int len = strlen(aname) + 1;
-		name = new char[len];
-		strcpy(name, aname);
-		abir = birthday;
-	}
-	Person& operator=(const Person& ref)
-	{
-		delete[]name;
-		int len = strlen(ref.name) + 1;
-		name = new char[len];
-		strcpy(name, ref.name);
-		birthday = ref.birthday;
-		return *this;
-	}
-	void ShowPerson() const {
-		cout << "이름 : " << name << endl << "생일 : " << birthday << endl << endl;
-	}
-	~Person()
-	{
-		delete[]name;
-		cout << "정보가 소멸 되었습니다." << endl;
-	}
+    Person(const char* aname, int abirthday) {
+        strcpy(name, aname);
+        birthday = abirthday;
+    }
+    void ShowPerson() {
+        cout << "Name: " << name << endl << "Birthday: " << birthday << endl;
+    }
 };
 
-int main(void)
-{
-	Person p1("홍길동", 19990909);
-	p1.ShowPerson();
+int main() {
+    Person* p1 = new Person("홍길동", 19990909);
+    p1->ShowPerson();
 
-	Person p2(p1);
-	p2.ShowPerson();
+    Person* p2 = new Person(*p1);
+    p2->ShowPerson();
 
-	Person p3 = p2;
-	p3.ShowPerson();
+    Person* p3 = new Person("강감찬", 20001201);
+    *p3 = *p1;
+    p3->ShowPerson();
 
-	return 0;
+    delete p1;
+    delete p2;
+    delete p3;
+
+    return 0;
 }

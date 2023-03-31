@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayTemplate.h" />
     <ClInclude Include="Point.h" />
+    <ClInclude Include="PointTemplate.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
@@ -27,7 +29,7 @@
     <ResourceCompile Include="baseC.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="classmaker02.cpp" />
+    <ClCompile Include="excep1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
