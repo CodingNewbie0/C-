@@ -30,6 +30,9 @@
     <ClInclude Include="ArrayTemplate.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Calculator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="baseC.rc">
@@ -37,7 +40,10 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="excep1.cpp">
+    <ClCompile Include="Calculator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculatorTutorial.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

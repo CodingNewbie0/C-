@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayTemplate.h" />
+    <ClInclude Include="Calculator.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="PointTemplate.h" />
     <ClInclude Include="Rectangle.h" />
@@ -29,7 +30,8 @@
     <ResourceCompile Include="baseC.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="excep1.cpp" />
+    <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="CalculatorTutorial.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
